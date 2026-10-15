@@ -64,8 +64,7 @@ The remote service was verified with official MCP SDK 1.32.1: 11 tools, real OAu
 Manifest checks:
 
 ```sh
-node scripts/validate-template.mjs
 claude plugin validate .
 ```
 
-The Cursor validator is copied from the official [cursor/plugin-template](https://github.com/cursor/plugin-template). Its optional hooks warning is expected because this plugin contains no hooks.
+Cursor manifests were checked locally with the official [cursor/plugin-template](https://github.com/cursor/plugin-template) validator. The upstream validation script is kept outside this connection repository. Its optional hooks warning is expected because this plugin contains no hooks. Claude plugin validation requires a recent Claude Code version; the local 1.0.51 CLI did not support that command.
