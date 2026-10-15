@@ -1,0 +1,23 @@
+{
+  "name": "flowchartai-mcp",
+  "version": "1.0.0",
+  "description": "Create, edit, save and export native flowcharts through the hosted FlowchartAI OAuth MCP server.",
+  "author": {
+    "name": "FlowchartAI",
+    "email": "support@flowchartai.org",
+    "url": "https://flowchartai.org"
+  },
+  "homepage": "https://flowchartai.org/mcp",
+  "repository": "https://github.com/tanchaowen84/flowchartai-mcp",
+  "license": "MIT",
+  "keywords": [
+    "flowchart",
+    "diagram",
+    "drawio",
+    "mcp",
+    "oauth"
+  ],
+  "displayName": "FlowchartAI MCP",
+  "logo": "assets/logo.png",
+  "mcpServers": "./mcp.json"
+}

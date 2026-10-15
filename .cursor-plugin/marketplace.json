@@ -1,0 +1,16 @@
+{
+  "name": "flowchartai",
+  "owner": {
+    "name": "FlowchartAI",
+    "email": "support@flowchartai.org"
+  },
+  "metadata": {
+    "description": "Official FlowchartAI MCP connection configuration."
+  },
+  "plugins": [
+    {
+      "name": "flowchartai-mcp",
+      "source": "."
+    }
+  ]
+}
