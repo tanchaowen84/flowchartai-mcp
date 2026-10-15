@@ -67,4 +67,4 @@ Manifest checks:
 claude plugin validate .
 ```
 
-Cursor manifests were checked locally with the official [cursor/plugin-template](https://github.com/cursor/plugin-template) validator. The upstream validation script is kept outside this connection repository. Its optional hooks warning is expected because this plugin contains no hooks. Claude plugin validation requires a recent Claude Code version; the local 1.0.51 CLI did not support that command.
+Cursor manifests were checked locally with the official [cursor/plugin-template](https://github.com/cursor/plugin-template) validator. The upstream validation script is kept outside this connection repository. Its optional hooks warning is expected because this plugin contains no hooks. Use a recent Claude Code version that supports the plugin validation command.
